@@ -1,367 +1,194 @@
 <!doctype html>
 <html lang="es">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="robots" content="noindex,nofollow">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
     <title>Propuesta Nº2</title>
-    <style>
-      body{
-        background:#eee;
-      }
+</head>
 
-h1{
-  font-size:1rem;
-  font-weight: 900;
-  padding-bottom:1rem;
-}
+<body>
 
-h2{
-  font-size:1.5rem;
-  font-weight: 600;
-  color:rgba(120, 13, 85, 1.00);
-  padding:1rem 0;
-}
+    <a class="menu-toggle" href="#">
+        <i class="fas fa-bars"></i>
+    </a>
 
-h3{
-  font-size:1rem;
-  font-weight: 900;
-  padding:2rem 0 1rem 0;
-}
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <li class="sidebar-brand">
+                <a class="js-scroll-trigger" href="#page-top">Start Bootstrap</a>
+            </li>
+            <li class="sidebar-nav-item">
+                <a class="js-scroll-trigger" href="#page-top">Home</a>
+            </li>
+            <li class="sidebar-nav-item">
+                <a class="js-scroll-trigger" href="#about">About</a>
+            </li>
+            <li class="sidebar-nav-item">
+                <a class="js-scroll-trigger" href="#services">Services</a>
+            </li>
+            <li class="sidebar-nav-item">
+                <a class="js-scroll-trigger" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="sidebar-nav-item">
+                <a class="js-scroll-trigger" href="#contact">Contact</a>
+            </li>
+        </ul>
+    </nav>
 
-h4{
-  font-size:0.8rem;
-  font-weight: 900;
-  text-transform: uppercase;
-}
+    <div class="container my-3">
 
-p.lead{
-  font-size:1rem;
-}
+        <div class="d-flex row" style="padding-top:28vh; background:transparent url('img/fondo.jpg') 0 0 no-repeat; background-size:50% auto">
 
+            <div class="col-md-2 align-items-stretch" id="year"></div>
 
-.arriba{
-  position:absolute;
-  top:1rem;
-  left:1rem;
-  right:1rem;
-}
+            <div class="col-md-6 py-2" id="about">
+                <div class="arriba p-4">
+                    <h1>ENEDI</h1>
+                    <h2>Encuentro Nacional de Escuelas de Diseño</h2>
+                    <p class="lead">El Encuentro Nacional de Escuelas de Diseño, ENEDI, es una oportunidad para discutir, reconocernos y cuestionar cómo y para que se enseña el diseño en Chile. Entre octubre y noviembre, ENEDI busca levantar y democratizar, desde y para las regiones del país, nuevos territorios de discusión sobre la educación y el quehacer del diseño local.</p>
+                </div>
+                <div class="abajo">
+                    <h3 class="px-4">ENEDI es posible gracias a</h3>
+                    <img src="img/logos.jpg" class="img-fluid">
+                </div>
+            </div>
 
-.abajo{
-  position:absolute;
-  bottom:1rem;
-  left:1rem; 
-  right:1rem; 
-}
+            <div class="col-md-4">
+                <div class="row">
+                    <div class="col-sm-12 py-2" id="brand">
+                        <svg viewBox="0 0 200 200">
+                            <g>
+                                <path class="azul" opacity=".9" d="M175,0H55v145h120l25,21V25L175,0z M175,70l-25,25h25v25H80V25h95V70z" />
+                                <path class="rojo" opacity=".9" d="M167.5,7h-120v145h120l25,21V32L167.5,7z M167.5,77l-25,25h25v25h-95V32h95V77z" />
+                            </g>
+                        </svg>
 
-.abajo p{
-  margin-bottom:0;
-  padding-bottom:0;
-  margin-top:0.5rem;
-}
+                    </div>
 
-@keyframes rojos {
-  from {fill:rgb(0, 119, 200)}
-  to {fill:rgb(255, 62, 181)}
-}
+                    <div class="col-sm-6 bg-light" id="social">
 
-@keyframes azules {
-  from {fill:rgb(255, 62, 181)}
-  to {fill:rgb(0, 119, 200)}
-}
+                        <div class="arriba">
+                            <h4>facebook</h4>
+                            <p><a href="#">Súmate a los más de 2000 seguidores</a></p>
+                        </div>
 
-  .rojo{
-    animation-name: rojos;
-    animation-duration:4s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-  }
+                        <div class="abajo">
+                            <p>síguenos</p>
+                        </div>
 
-  .azul{
-    animation-name: azules;
-    animation-duration:4s;
-      animation-iteration-count: infinite;
-      animation-direction: alternate;
+                    </div>
 
-  }
+                    <div class="col-sm-6 p-3" id="info" style="background:url(img/libro.jpg); background-size:cover">
 
-/* Side Menu */
-#sidebar-wrapper {
-  position: fixed;
-  top:0;
-  z-index: 2;
-  right: 0;
-  width: 250px;
-  height: 100%;
-  -webkit-transition: all 0.4s ease 0s;
-  transition: all 0.4s ease 0s;
-  -webkit-transform: translateX(250px);
-  transform: translateX(250px);
-  background: #1D809F;
-  border-left: 1px solid rgba(255, 255, 255, 0.1);
-}
+                        <div class="arriba">
+                            <h4>registros</h4>
+                        </div>
 
-.sidebar-nav {
-  position: absolute;
-  top: 0;
-  width: 250px;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
+                        <div class="abajo">
+                            <p>enedi.info</p>
+                        </div>
 
-.sidebar-nav li.sidebar-nav-item a {
-  display: block;
-  text-decoration: none;
-  color: #fff;
-  padding: 15px;
-}
+                    </div>
 
-.sidebar-nav li a:hover {
-  text-decoration: none;
-  color: #fff;
-  background: rgba(255, 255, 255, 0.2);
-}
+                </div>
+            </div>
+        </div>
 
-.sidebar-nav li a:active,
-.sidebar-nav li a:focus {
-  text-decoration: none;
-}
+        <div class="row d-flex" id="regiones">
+            <div class="col-2 py-2 alert-info align-items-stretch" style="background:url(img/ciudad-valpo.jpg); background-size:cover">
+                <div class="arriba text-white">
+                    <h4>Valparaíso</h4></div>
+                <div class="abajo"><a href="#">ver detalles</a></div>
+            </div>
+            <div class="col-2 py-2 alert-warning align-items-stretch" style="background:url(img/ciudad-talca.jpg); background-size:cover">
+                <div class="arriba text-white">
+                    <h4>Talca</h4></div>
+                <div class="abajo"><a href="#">ver detalles</a></div>
+            </div>
+            <div class="col-2 py-2 alert-primary align-items-stretch" style="background:url(img/ciudad-stgo.jpg); background-size:cover">
+                <div class="arriba text-white">
+                    <h4>Santiago</h4></div>
+                <div class="abajo"><a href="#">ver detalles</a></div>
+            </div>
+            <div class="col-2 py-2 alert-success align-items-stretch" style="background:url(img/ciudad-concellan.jpg); background-size:cover">
+                <div class="arriba text-white">
+                    <h4>Concepción<br />Chillán</h4></div>
+                <div class="abajo"><a href="#">ver detalles</a></div>
+            </div>
+            <div class="col-2 py-2 alert-dark align-items-stretch" style="background:url(img/ciudad-temuco.jpg); background-size:cover">
+                <div class="arriba text-white">
+                    <h4>Temuco</h4></div>
+                <div class="abajo"><a href="#">ver detalles</a></div>
+            </div>
+            <div class="col-2 py-2 alert-secondary align-items-stretch" id="chico" style="background:url(img/ciudad-serena.jpg); background-size:cover">
+                <div class="arriba text-white">
+                    <h4>La Serena</h4></div>
+                <div class="abajo"><a href="#">ver detalles</a></div>
+            </div>
+        </div>
 
-.sidebar-nav > .sidebar-brand {
-  font-size: 1.2rem;
-  background: rgba(52, 58, 64, 0.1);
-  height: 80px;
-  line-height: 50px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  padding-left: 15px;
-}
-
-.sidebar-nav > .sidebar-brand a {
-  color: #fff;
-}
-
-.sidebar-nav > .sidebar-brand a:hover {
-  color: #fff;
-  background: none;
-}
-
-#sidebar-wrapper.active {
-  right: 250px;
-  width: 250px;
-  -webkit-transition: all 0.4s ease 0s;
-  transition: all 0.4s ease 0s;
-}
-
-.menu-toggle {
-  position: fixed;
-  right: 1rem;
-  top: 1rem;
-  width: 50px;
-  height: 50px;
-  text-align: center;
-  color: white;
-  line-height: 50px;
-  z-index: 999;
-  border-radius: 0;
-  background: RGBA(120, 13, 85, 1.00);
-}
-
-.menu-toggle:focus, .menu-toggle:hover {
-  color: #fff;
-}
-
-.menu-toggle:hover {
-  background: #343a40;
-}
-
-
-    </style>
-  </head>
-  <body>
-
-  <a class="menu-toggle" href="#">
-    <i class="fas fa-bars"></i>
-  </a>
-
-
-
-  <nav id="sidebar-wrapper">
-    <ul class="sidebar-nav">
-      <li class="sidebar-brand">
-        <a class="js-scroll-trigger" href="#page-top">Start Bootstrap</a>
-      </li>
-      <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#page-top">Home</a>
-      </li>
-      <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#about">About</a>
-      </li>
-      <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#services">Services</a>
-      </li>
-      <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#portfolio">Portfolio</a>
-      </li>
-      <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#contact">Contact</a>
-      </li>
-    </ul>
-  </nav>
-
-
-<div class="container my-3">
-
-
-<div class="d-flex row" style="padding-top:28vh; background:transparent url('img/fondo.jpg') 0 0 no-repeat; background-size:50% auto">
-
-  <div class="col-md-2 align-items-stretch" id="year"></div>
-  
-  <div class="col-md-6 py-2" id="about">
-    <div class="arriba p-4">
-      <h1>ENEDI</h1>
-      <h2>Encuentro Nacional de Escuelas de Diseño</h2>
-<p class="lead">El Encuentro Nacional de Escuelas de Diseño, ENEDI, es una oportunidad para discutir, reconocernos y cuestionar cómo y para que se enseña el diseño en Chile. Entre octubre y noviembre, ENEDI busca levantar y democratizar, desde y para las regiones del país, nuevos territorios de discusión sobre la educación y el quehacer del diseño local.</p>
     </div>
-    <div class="abajo">
-      <h3 class="px-4">ENEDI es posible gracias a</h3>
-      <img src="img/logos.jpg" class="img-fluid">
-    </div>
-  </div>
-
-  <div class="col-md-4">
-    <div class="row">
-      <div class="col-sm-12 py-2" id="brand">
-          <svg viewBox="0 0 225 225">
-        <g transform="translate(30,0)">
-            <path d="M150,0H0v180h150l30,30V30L150,0z M150,90l-30,30h30v30H30V30h120V90z" class="rojo" opacity=".75" transform="translate(15,0)"/>
-            <path d="M150,0H0v180h150l30,30V30L150,0z M150,90l-30,30h30v30H30V30h120V90z" class="azul" opacity=".75" transform="translate(0,15)"/>
-          </g>
-          </svg>  
-
-
-      </div>
-
-      <div class="col-sm-6 bg-light" id="social">
-          
-          <div class="arriba">  
-            <h4>facebook</h4>
-            <p><a href="#">Súmate a los más de 2000 seguidores</a></p>
-          </div>
-
-          <div class="abajo">  
-            <p>síguenos</p>
-          </div>
-      
-      </div>
-
-
-      <div class="col-sm-6 p-3" id="info" style="background:url(img/libro.jpg); background-size:cover">
-
-          <div class="arriba">  
-            <h4>registros</h4>
-          </div>
-          
-          <div class="abajo">  
-            <p>enedi.info</p>
-          </div>
-
-      </div>
-
-
-      </div>
-    </div>
-  </div>
-
-<div class="row d-flex" id="regiones">
-  <div class="col-2 py-2 alert-info align-items-stretch" style="background:url(img/ciudad-valpo.jpg); background-size:cover">
-    <div class="arriba text-white"><h4>Valparaíso</h4></div>
-    <div class="abajo"><a href="#">ver detalles</a></div>
-  </div>
-  <div class="col-2 py-2 alert-warning align-items-stretch" style="background:url(img/ciudad-talca.jpg); background-size:cover">
-    <div class="arriba text-white"><h4>Talca</h4></div>
-    <div class="abajo"><a href="#">ver detalles</a></div>    
-  </div>
-  <div class="col-2 py-2 alert-primary align-items-stretch" style="background:url(img/ciudad-stgo.jpg); background-size:cover">
-    <div class="arriba text-white"><h4>Santiago</h4></div>
-    <div class="abajo"><a href="#">ver detalles</a></div>      
-  </div>
-  <div class="col-2 py-2 alert-success align-items-stretch" style="background:url(img/ciudad-concellan.jpg); background-size:cover">
-    <div class="arriba text-white"><h4>Concepción<br />Chillán</h4></div>
-    <div class="abajo"><a href="#">ver detalles</a></div>      
-  </div>
-  <div class="col-2 py-2 alert-dark align-items-stretch" style="background:url(img/ciudad-temuco.jpg); background-size:cover">
-    <div class="arriba text-white"><h4>Temuco</h4></div>
-    <div class="abajo"><a href="#">ver detalles</a></div>      
-  </div>
-  <div class="col-2 py-2 alert-secondary align-items-stretch" id="chico" style="background:url(img/ciudad-serena.jpg); background-size:cover">
-    <div class="arriba text-white"><h4>La Serena</h4></div>
-    <div class="abajo"><a href="#">ver detalles</a></div>     
-  </div>
-</div>
-
-</div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-<script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
 
-<script>
-var h_about = document.getElementById("about").offsetWidth;
-var h_brand = document.getElementById("brand").offsetWidth;
-var h_smaller = document.getElementById("chico").offsetWidth;
+    <script>
+        var h_about = document.getElementById("about").offsetWidth;
+        var h_brand = document.getElementById("brand").offsetWidth;
+        var h_smaller = document.getElementById("chico").offsetWidth;
 
-console.log(h_about);
-console.log(h_brand);
+        console.log(h_about);
+        console.log(h_brand);
 
-d3.select("#about").style("height",(h_about)+"px").style("background","rgba(255,255,255,.9)");
-d3.select("#brand").style("height",(h_brand)+"px");
-d3.select("#regiones").style("height",(h_smaller)+"px");
-d3.select("#social").style("height",(h_smaller)+"px");
-d3.select("#info").style("height",(h_smaller)+"px");
-d3.select("#year").append("svg").attr("viewBox","0 0 100 100").style("position","absolute").style("bottom",0).style("left",0).append("text").attr("x",10).attr("y",10).text("2019").style("font-size",10).style("font-weight","bold").attr("fill","rgba(120, 13, 85, 1.00)").attr("transform","translate(5,100),rotate(-90)");
-</script>
+        d3.select("#about").style("height", (h_about) + "px").style("background", "rgba(255,255,255,.9)");
+        d3.select("#brand").style("height", (h_brand) + "px");
+        d3.select("#regiones").style("height", (h_smaller) + "px");
+        d3.select("#social").style("height", (h_smaller) + "px");
+        d3.select("#info").style("height", (h_smaller) + "px");
+        d3.select("#year").append("svg").attr("viewBox", "0 0 100 100").style("position", "absolute").style("bottom", 0).style("left", 0).append("text").attr("x", 10).attr("y", 10).text("2019").style("font-size", 10).style("font-weight", "bold").attr("fill", "rgba(120, 13, 85, 1.00)").attr("transform", "translate(5,100),rotate(-90)");
+    </script>
 
+    <script>
+        $(".menu-toggle").click(function(e) {
+            e.preventDefault();
+            $("#sidebar-wrapper").toggleClass("active");
+            $(".menu-toggle > .fa-bars, .menu-toggle > .fa-times").toggleClass("fa-bars fa-times");
+            $(this).toggleClass("active");
+        });
 
-<script>
-    $(".menu-toggle").click(function(e) {
-    e.preventDefault();
-    $("#sidebar-wrapper").toggleClass("active");
-    $(".menu-toggle > .fa-bars, .menu-toggle > .fa-times").toggleClass("fa-bars fa-times");
-    $(this).toggleClass("active");
-  });
+        // Smooth scrolling using jQuery easing
+        $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html, body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000, "easeInOutExpo");
+                    return false;
+                }
+            }
+        });
 
-  // Smooth scrolling using jQuery easing
-  $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
-    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-      if (target.length) {
-        $('html, body').animate({
-          scrollTop: target.offset().top
-        }, 1000, "easeInOutExpo");
-        return false;
-      }
-    }
-  });
+        // Closes responsive menu when a scroll trigger link is clicked
+        $('#sidebar-wrapper .js-scroll-trigger').click(function() {
+            $("#sidebar-wrapper").removeClass("active");
+            $(".menu-toggle").removeClass("active");
+            $(".menu-toggle > .fa-bars, .menu-toggle > .fa-times").toggleClass("fa-bars fa-times");
+        });
+    </script>
 
-  // Closes responsive menu when a scroll trigger link is clicked
-  $('#sidebar-wrapper .js-scroll-trigger').click(function() {
-    $("#sidebar-wrapper").removeClass("active");
-    $(".menu-toggle").removeClass("active");
-    $(".menu-toggle > .fa-bars, .menu-toggle > .fa-times").toggleClass("fa-bars fa-times");
-  });
+</body>
 
-
-</script>
-
-  </body>
 </html>
