@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,300i,500,800');
+        @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,300i,400, 500,700');
+        body {
+            font-family: 'IBM Plex Sans', sans-serif;
+            font-weight: 300;
+            letter-spacing: 0.075rem;
+            line-height: 1.5;
+            font-size: 0.9rem;
+            background: #eee;
+        }
+        
+        h1 {
+            font-size: 1rem;
+            font-weight: 900;
+            padding-bottom: 1rem;
+            color: rgb(255, 62, 181);
+        }
+        
+        h2 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: rgb(0, 127, 246);
+            padding: 1rem 0;
+        }
+        
+        h3 {
+            font-size: 1rem;
+            font-weight: 900;
+            padding: 2rem 0 1rem 0;
+            color: rgb(0, 127, 246);
+        }
+        
+        h4 {
+            font-size: 0.8rem;
+            font-weight: 900;
+            text-transform: uppercase;
+        }
+        
+        p.lead {
+            font-size: 1rem;
+        }
+        
+        #upthere {
+            background: transparent url('img/fondo.jpg') 0 0 no-repeat;
+            background-size: 50% auto;
+        }
+        
+        .arriba {
+            position: absolute;
+            top: 1rem;
+            left: 1rem;
+            right: 1rem;
+        }
+        
+        .abajo {
+            position: absolute;
+            bottom: 1rem;
+            left: 1rem;
+            right: 1rem;
+        }
+        
+        .abajo p {
+            margin-bottom: 0;
+            padding-bottom: 0;
+            margin-top: 0.5rem;
+        }
+        
+        @keyframes rojos {
+            from {
+                fill: rgb(0, 127, 246)
+            }
+            to {
+                fill: rgb(255, 62, 181)
+            }
+        }
+        
+        @keyframes azules {
+            from {
+                fill: rgb(255, 62, 181)
+            }
+            to {
+                fill: rgb(0, 127, 246)
+            }
+        }
+        
+        .rojo {
+            animation-name: rojos;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+        
+        .azul {
+            animation-name: azules;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+        /* Side Menu */
+        
+        #sidebar-wrapper {
+            position: fixed;
+            top: 0;
+            z-index: 2;
+            right: 0;
+            width: 250px;
+            height: 100%;
+            -webkit-transition: all 0.4s ease 0s;
+            transition: all 0.4s ease 0s;
+            -webkit-transform: translateX(250px);
+            transform: translateX(250px);
+            background: linear-gradient(rgb(0, 127, 246), rgb(255, 62, 181));
+            border-left: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .sidebar-nav {
+            position: absolute;
+            top: 0;
+            width: 250px;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        
+        .sidebar-nav li.sidebar-nav-item a {
+            display: block;
+            text-decoration: none;
+            color: #fff;
+            padding: 15px;
+        }
+        
+        .sidebar-nav li a:hover {
+            text-decoration: none;
+            color: #fff;
+            background: rgba(0, 0, 0, 0.2);
+        }
+        
+        .sidebar-nav li a:active,
+        .sidebar-nav li a:focus {
+            text-decoration: none;
+        }
+        
+        .sidebar-nav > .sidebar-brand {
+            font-size: 1.2rem;
+            background: rgba(52, 58, 64, 0.1);
+            height: 80px;
+            line-height: 50px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            padding-left: 15px;
+        }
+        
+        .sidebar-nav > .sidebar-brand a {
+            color: #fff;
+        }
+        
+        .sidebar-nav > .sidebar-brand a:hover {
+            color: #fff;
+            background: none;
+        }
+        
+        #sidebar-wrapper.active {
+            right: 250px;
+            width: 250px;
+            -webkit-transition: all 0.4s ease 0s;
+            transition: all 0.4s ease 0s;
+        }
+        
+        .menu-toggle {
+            position: fixed;
+            right: 1rem;
+            top: 1rem;
+            width: 50px;
+            height: 50px;
+            text-align: center;
+            color: white;
+            line-height: 50px;
+            z-index: 999;
+            border-radius: 0;
+            background: rgb(0, 127, 246);
+        }
+        
+        .menu-toggle:focus,
+        .menu-toggle:hover {
+            color: #fff;
+        }
+        
+        .menu-toggle:hover {
+            background: rgb(255, 62, 181);
+        }
+        
+        #valpo {
+            background: linear-gradient(45deg, rgba(255, 62, 181, 0.8) 0%, rgba(0, 127, 246, 0.8) 100%), url('img/ciudad-valpo.jpg');
+            background-size: cover;
+        }
+        
+        #talca {
+            background: linear-gradient(-45deg, rgba(0, 127, 246, 0.8) 0%, rgba(255, 62, 181, 0.8) 100%), url('img/ciudad-talca.jpg');
+            background-size: cover;
+        }
+        
+        #stgo {
+            background: linear-gradient(45deg, rgba(255, 62, 181, 0.8) 0%, rgba(0, 127, 246, 0.8) 100%), url('img/ciudad-stgo.jpg');
+            background-size: cover;
+        }
+        
+        #concellan {
+            background: linear-gradient(-45deg, rgba(0, 127, 246, 0.8) 0%, rgba(255, 62, 181, 0.8) 100%), url('img/ciudad-concellan.jpg');
+            background-size: cover;
+        }
+        
+        #temuco {
+            background: linear-gradient(45deg, rgba(255, 62, 181, 0.8) 0%, rgba(0, 127, 246, 0.8) 100%), url('img/ciudad-temuco.jpg');
+            background-size: cover;
+        }
+        
+        #serena {
+            background: linear-gradient(-45deg, rgba(0, 127, 246, 0.8) 0%, rgba(255, 62, 181, 0.8) 100%), url('img/ciudad-serena.jpg');
+            background-size: cover;
+        }
