@@ -1,7 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Bitter:700');
+@import url('https://fonts.googleapis.com/css?family=Poppins:800');
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,300i,400');
 
 body {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.01rem;
     line-height: 1.5;
+    font-size: 0.9rem;
     background: linear-gradient(135deg,#ccc,#fff);
 }
 
@@ -13,21 +18,20 @@ h4,
 h5,
 h6,
 #year {
-    font-family: 'Bitter', serif;
-    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
 }
 
 
 h1 {
     font-size: 1rem;
-    font-weight: 900;
     padding-bottom: 1rem;
+    letter-spacing: 0.1rem;
     color: rgb(255, 62, 181);
 }
 
 h2 {
     font-size: 1.5rem;
-    font-weight: 600;
     color: rgb(0, 127, 246);
     padding: 1rem 0;
     max-width:75%;
@@ -37,16 +41,15 @@ h2 {
  h2{max-width:90%;}   
 }
 
+
 h3 {
     font-size: 1rem;
-    font-weight: 900;
     padding: 2rem 0 1rem 0;
     color: rgb(0, 127, 246);
 }
 
 h4 {
-    font-size: 0.8rem;
-    font-weight: 900;
+    font-size: 0.7rem;
     text-transform: uppercase;
 }
 
@@ -239,32 +242,33 @@ p.lead {
      background-size:cover;
 }
 
+
 #valpo {
-    background: linear-gradient(45deg, rgba(255, 62, 181, 0.8) 0%, rgba(0, 127, 246, 0.8) 100%), url('img/ciudad-valpo.jpg');
+    background: linear-gradient(45deg, rgba(255, 62, 181, 0.7) 0%, rgba(0, 127, 246, 0.7) 100%), url('img/ciudad-valpo.jpg');
     background-size: cover;
 }
 
 #talca {
-    background: linear-gradient(-45deg, rgba(0, 127, 246, 0.8) 0%, rgba(255, 62, 181, 0.8) 100%), url('img/ciudad-talca.jpg');
+    background: linear-gradient(-45deg, rgba(0, 127, 246, 0.7) 0%, rgba(255, 62, 181, 0.7) 100%), url('img/ciudad-talca.jpg');
     background-size: cover;
 }
 
 #stgo {
-    background: linear-gradient(45deg, rgba(255, 62, 181, 0.8) 0%, rgba(0, 127, 246, 0.8) 100%), url('img/ciudad-stgo.jpg');
+    background: linear-gradient(45deg, rgba(255, 62, 181, 0.7) 0%, rgba(0, 127, 246, 0.7) 100%), url('img/ciudad-stgo.jpg');
     background-size: cover;
 }
 
 #concellan {
-    background: linear-gradient(-45deg, rgba(0, 127, 246, 0.8) 0%, rgba(255, 62, 181, 0.8) 100%), url('img/ciudad-concellan.jpg');
+    background: linear-gradient(-45deg, rgba(0, 127, 246, 0.7) 0%, rgba(255, 62, 181, 0.7) 100%), url('img/ciudad-concellan.jpg');
     background-size: cover;
 }
 
 #temuco {
-    background: linear-gradient(45deg, rgba(255, 62, 181, 0.8) 0%, rgba(0, 127, 246, 0.8) 100%), url('img/ciudad-temuco.jpg');
+    background: linear-gradient(45deg, rgba(255, 62, 181, 0.7) 0%, rgba(0, 127, 246, 0.7) 100%), url('img/ciudad-temuco.jpg');
     background-size: cover;
 }
 
 #serena {
-    background: linear-gradient(-45deg, rgba(0, 127, 246, 0.8) 0%, rgba(255, 62, 181, 0.8) 100%), url('img/ciudad-serena.jpg');
+    background: linear-gradient(-45deg, rgba(0, 127, 246, 0.7) 0%, rgba(255, 62, 181, 0.7) 100%), url('img/ciudad-serena.jpg');
     background-size: cover;
 }
