@@ -20,11 +20,11 @@ Las propuestas:
 
 **Propuesta-4.** [Uso de tipo *geométrica heavy* en títulos - imagen mayor en un tono de transición - imágenes menores en duotono cian/magenta](https://facoasecas.github.io/enedi/propuesta-4/)
 
-#### Para el feedback
+#### Para el feedback…
 
-- Si hay problemas con la estructura, necesito contrapropuestas a mano, idealmente dibujadas en papel cuadriculado. Favor usen 12 cuadrados como ancho máximo (sobre esa base opera Bootstrap). también necesitaría que se hagan cargo de las distintas opciones de pantalla (celular vertical, celular horizontal = tablet vertical, table horizontal y más grande). 
+- Si hay problemas con la estructura, necesito contrapropuestas a mano, idealmente dibujadas en papel cuadriculado usando 12 cuadradosd e ancho (porque sobre esa base opera Bootstrap, da lo mismo la cantidad de cuadrados de alto); también necesitaría que cada contrapropuesta se haga cargo de las distintas opciones de pantalla, o sea: cada contrapropuesta debería ser triple: (1) celular vertical, (2 )celular horizontal = tablet vertical, (3) tablet horizontal.
 
-- lo demás se puede resolver con un "me gusta esto de una propuesta y aquello de otra".
+- lo demás se puede resolver con un "me gusta esto de una propuesta y aquello de otra" o "le sacaría esto, y le pondría esto otro".
 
-Quedo atento a comentarios! - hola@faco.cl
+**Quedo atento a comentarios! - hola@faco.cl**
 
