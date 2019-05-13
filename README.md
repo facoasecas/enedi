@@ -6,11 +6,11 @@ En estas propuestas nos concentramos en resolver, desde la programación, la pos
 
 Son 4 propuestas, con la misma estructura, donde se prueban algunos usos tipográficos y cromáticos: 
 
-a) tipográficos: uso de tipo *egipiana* (como Kappa vol.2), geométrica ultra gruesa (como Kappa, a secas), y una extra.
-b) cromático: usos de monotono de transición (morado, haciendo guiño a enedi2017) y uso de duotono de cian y magenta de risografía.
+a) tipográficos: geométrica ultra gruesa (como Kappa, a secas), *egipiana* (como Kappa vol.2), y un comodín.
 
-Las siguientes propuestas exploran:
+b) cromático: usos de mono-tono de transición (morado, haciendo guiño a enedi2017) y uso de duotono de cian y magenta de risografía.
 
+Las propuestas:
 
 **Propuesta-1.** [Uso de tipo *geométrica heavy* en títulos - imagen mayor en duotono cian/magenta - imágenes menores en gradiente cian-magenta débil](https://facoasecas.github.io/enedi/propuesta-2/)
 
