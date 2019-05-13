@@ -1,24 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Bitter:700');
+
 body {
-    background: #eee;
+    line-height: 1.5;
+    background: linear-gradient(135deg,#ccc,#fff);
 }
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+#year {
+    font-family: 'Bitter', serif;
+    font-weight: 700;
+}
+
 
 h1 {
     font-size: 1rem;
     font-weight: 900;
     padding-bottom: 1rem;
+    color: rgb(255, 62, 181);
 }
 
 h2 {
     font-size: 1.5rem;
     font-weight: 600;
-    color: rgba(120, 13, 85, 1.00);
+    color: rgb(0, 127, 246);
     padding: 1rem 0;
+    max-width:75%;
+}
+
+@media screen and (orientation:portrait){
+ h2{max-width:90%;}   
 }
 
 h3 {
     font-size: 1rem;
     font-weight: 900;
     padding: 2rem 0 1rem 0;
+    color: rgb(0, 127, 246);
 }
 
 h4 {
@@ -28,21 +51,46 @@ h4 {
 }
 
 p.lead {
-    font-size: 1rem;
+    font-size: 1.1rem;
+}
+
+#top {
+    background: transparent url('img/fondo.jpg') 0 0 no-repeat;
+    background-size: 50% auto;
+}
+
+@media screen and (max-width: 992px){
+ #top {
+    background: transparent url('img/fondo.jpg') 0 0 no-repeat;
+    background-size: 75% auto;
+}   
+}
+
+
+.cuadrado{
+    position:relative;
+    width:100%;
+    height:100%;
 }
 
 .arriba {
     position: absolute;
-    top: 1rem;
-    left: 1rem;
-    right: 1rem;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 .abajo {
     position: absolute;
-    bottom: 1rem;
-    left: 1rem;
-    right: 1rem;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+@media screen and (max-width:992px){
+
+    #about .arriba{position:relative;} 
+    #about .abajo{position:relative; padding-top:3rem;}
 }
 
 .abajo p {
@@ -53,7 +101,7 @@ p.lead {
 
 @keyframes rojos {
     from {
-        fill: rgb(0, 119, 200)
+        fill: rgb(0, 127, 246)
     }
     to {
         fill: rgb(255, 62, 181)
@@ -65,7 +113,7 @@ p.lead {
         fill: rgb(255, 62, 181)
     }
     to {
-        fill: rgb(0, 119, 200)
+        fill: rgb(0, 127, 246)
     }
 }
 
@@ -97,8 +145,7 @@ p.lead {
     transition: all 0.4s ease 0s;
     -webkit-transform: translateX(250px);
     transform: translateX(250px);
-    background: #1D809F;
-    border-left: 1px solid rgba(255, 255, 255, 0.1);
+    background: linear-gradient(rgb(0, 127, 246), rgb(255, 62, 181));
 }
 
 .sidebar-nav {
@@ -120,7 +167,7 @@ p.lead {
 .sidebar-nav li a:hover {
     text-decoration: none;
     color: #fff;
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(0, 0, 0, 0.2);
 }
 
 .sidebar-nav li a:active,
@@ -165,7 +212,7 @@ p.lead {
     line-height: 50px;
     z-index: 999;
     border-radius: 0;
-    background: RGBA(120, 13, 85, 1.00);
+    background: rgb(0, 127, 246);
 }
 
 .menu-toggle:focus,
@@ -174,5 +221,50 @@ p.lead {
 }
 
 .menu-toggle:hover {
-    background: #343a40;
+    background: rgb(255, 62, 181);
+}
+
+
+
+#about, #support{
+    background:rgba(255,255,255,.9);
+}
+
+#social{
+    background:rgba(255,255,255,.45);    
+}
+
+#info{
+     background:url(img/libro.jpg); 
+     background-size:cover;
+}
+
+#valpo {
+    background: linear-gradient(45deg, rgba(255, 62, 181, 0.8) 0%, rgba(0, 127, 246, 0.8) 100%), url('img/ciudad-valpo.jpg');
+    background-size: cover;
+}
+
+#talca {
+    background: linear-gradient(-45deg, rgba(0, 127, 246, 0.8) 0%, rgba(255, 62, 181, 0.8) 100%), url('img/ciudad-talca.jpg');
+    background-size: cover;
+}
+
+#stgo {
+    background: linear-gradient(45deg, rgba(255, 62, 181, 0.8) 0%, rgba(0, 127, 246, 0.8) 100%), url('img/ciudad-stgo.jpg');
+    background-size: cover;
+}
+
+#concellan {
+    background: linear-gradient(-45deg, rgba(0, 127, 246, 0.8) 0%, rgba(255, 62, 181, 0.8) 100%), url('img/ciudad-concellan.jpg');
+    background-size: cover;
+}
+
+#temuco {
+    background: linear-gradient(45deg, rgba(255, 62, 181, 0.8) 0%, rgba(0, 127, 246, 0.8) 100%), url('img/ciudad-temuco.jpg');
+    background-size: cover;
+}
+
+#serena {
+    background: linear-gradient(-45deg, rgba(0, 127, 246, 0.8) 0%, rgba(255, 62, 181, 0.8) 100%), url('img/ciudad-serena.jpg');
+    background-size: cover;
 }

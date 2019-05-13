@@ -2,7 +2,7 @@
 
 body {
     line-height: 1.5;
-    background: #eee;
+    background: linear-gradient(135deg,#ccc,#fff);
 }
 
 
@@ -30,6 +30,11 @@ h2 {
     font-weight: 600;
     color: rgb(0, 127, 246);
     padding: 1rem 0;
+    max-width:75%;
+}
+
+@media screen and (orientation:portrait){
+ h2{max-width:90%;}   
 }
 
 h3 {

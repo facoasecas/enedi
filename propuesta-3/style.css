@@ -1,12 +1,16 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:800');
-@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,300i,400');
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono:700');
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,500');
+
+
 body {
-    font-family: 'IBM Plex Sans', sans-serif;
-    font-weight: 400;
-    letter-spacing: 0.075rem;
     line-height: 1.5;
-    font-size: 0.9rem;
-    background: #eee;
+    background: linear-gradient(135deg,#ccc,#fff);
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 300;
+}
+
+strong, em{
+    font-weight:500;
 }
 
 h1,
@@ -16,12 +20,15 @@ h4,
 h5,
 h6,
 #year {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 800;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 700;
+    letter-spacing: -0.01rem;
 }
+
 
 h1 {
     font-size: 1rem;
+    font-weight: 900;
     padding-bottom: 1rem;
     color: rgb(255, 62, 181);
 }
@@ -31,6 +38,11 @@ h2 {
     font-weight: 600;
     color: rgb(0, 127, 246);
     padding: 1rem 0;
+    max-width:75%;
+}
+
+@media screen and (orientation:portrait){
+ h2{max-width:90%;}   
 }
 
 h3 {
@@ -42,32 +54,50 @@ h3 {
 
 h4 {
     font-size: 0.8rem;
-    font-weight: 900;
     text-transform: uppercase;
 }
 
 p.lead {
-    font-size: 1rem;
-    font-weight: 300;
+    font-size: 1.1rem;
 }
 
-#upthere {
+#top {
     background: transparent url('img/fondo.jpg') 0 0 no-repeat;
     background-size: 50% auto;
 }
 
+@media screen and (max-width: 992px){
+ #top {
+    background: transparent url('img/fondo.jpg') 0 0 no-repeat;
+    background-size: 75% auto;
+}   
+}
+
+
+.cuadrado{
+    position:relative;
+    width:100%;
+    height:100%;
+}
+
 .arriba {
     position: absolute;
-    top: 1rem;
-    left: 1rem;
-    right: 1rem;
-}
+    top: 0;
+    left: 0;
+    right: 0;
+ }
 
 .abajo {
     position: absolute;
-    bottom: 1rem;
-    left: 1rem;
-    right: 1rem;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+@media screen and (max-width:992px){
+
+    #about .arriba{position:relative;} 
+    #about .abajo{position:relative; padding-top:3rem;}
 }
 
 .abajo p {
@@ -123,7 +153,6 @@ p.lead {
     -webkit-transform: translateX(250px);
     transform: translateX(250px);
     background: linear-gradient(rgb(0, 127, 246), rgb(255, 62, 181));
-    border-left: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .sidebar-nav {
@@ -202,32 +231,49 @@ p.lead {
     background: rgb(255, 62, 181);
 }
 
+
+
+#about, #support{
+    background:rgba(255,255,255,.9);
+}
+
+#social{
+    background:rgba(255,255,255,.45);    
+}
+
+#info{
+     background:url(img/libro.jpg); 
+     background-size:cover;
+}
+
+
 #valpo {
-    background: linear-gradient(45deg, rgba(255, 62, 181, 0.8) 0%, rgba(0, 127, 246, 0.8) 100%), url('img/ciudad-valpo.jpg');
+    background: url('img/ciudad-valpo.jpg');
     background-size: cover;
 }
 
 #talca {
-    background: linear-gradient(-45deg, rgba(0, 127, 246, 0.8) 0%, rgba(255, 62, 181, 0.8) 100%), url('img/ciudad-talca.jpg');
+    background: url('img/ciudad-talca.jpg');
     background-size: cover;
 }
 
 #stgo {
-    background: linear-gradient(45deg, rgba(255, 62, 181, 0.8) 0%, rgba(0, 127, 246, 0.8) 100%), url('img/ciudad-stgo.jpg');
+    background: url('img/ciudad-stgo.jpg');
     background-size: cover;
 }
 
 #concellan {
-    background: linear-gradient(-45deg, rgba(0, 127, 246, 0.8) 0%, rgba(255, 62, 181, 0.8) 100%), url('img/ciudad-concellan.jpg');
+    background: url('img/ciudad-concellan.jpg');
     background-size: cover;
 }
 
 #temuco {
-    background: linear-gradient(45deg, rgba(255, 62, 181, 0.8) 0%, rgba(0, 127, 246, 0.8) 100%), url('img/ciudad-temuco.jpg');
+    background: url('img/ciudad-temuco.jpg');
     background-size: cover;
 }
 
 #serena {
-    background: linear-gradient(-45deg, rgba(0, 127, 246, 0.8) 0%, rgba(255, 62, 181, 0.8) 100%), url('img/ciudad-serena.jpg');
+    background: url('img/ciudad-serena.jpg');
     background-size: cover;
 }
+
