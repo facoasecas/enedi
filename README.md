@@ -1,14 +1,14 @@
 # enedi
 
-### Primeras propuestas:
+### Primeras 4 propuestas:
 
-En estas propuestas nos concentramos en resolver, desde la programación, la posibilidad de una estructura cuadricular *responsive*. Si ustedes revisan las propuestas cambiando el tamaño de la ventana del navegador, o usando distintos dispositivos, el diseño se adapta a todo.
+**En estas propuestas nos concentramos en resolver, desde la programación, la posibilidad de una estructura cuadricular *responsive***. Si revisan las propuestas cambiando el tamaño de la ventana del navegador, o usando distintos dispositivos, el diseño cambia.
 
-Son 4 propuestas, con la misma estructura, donde se prueban algunos usos tipográficos y cromáticos: 
+Sobre la misma estructura, hay 4 variantes de tipográficas y cromáticas:
 
-a) tipográficos: geométrica heavy (como [Kappa](https://www.wtypefoundry.com/kappa), a secas), *egipiana* (como [Kappa vol.2](https://www.wtypefoundry.com/kappa-vol-2)), y un comodín (IBM, que tiene mono, sans, sans condensed y serif).
+a) tipográficas: geométrica heavy (como [Kappa](https://www.wtypefoundry.com/kappa), a secas), *egipiana* (como [Kappa vol.2](https://www.wtypefoundry.com/kappa-vol-2)), y un comodín (IBM, que tiene mono, sans, sans condensed y serif).
 
-b) cromático: usos de mono-tono de transición (morado, haciendo guiño a enedi2017) y uso de duotono de cian y magenta de risografía.
+b) cromáticas: usos de mono-tono de transición (morado, haciendo guiño a enedi2017) y uso de duotono de cian y magenta de risografía.
 
 Las propuestas:
 
