@@ -6,7 +6,7 @@
 
 Sobre la misma estructura, hay 4 variantes tipográficas y cromáticas:
 
-a) tipográficas: geométrica heavy (como [Kappa](https://www.wtypefoundry.com/kappa), a secas), *egipiana* (como [Kappa vol.2](https://www.wtypefoundry.com/kappa-vol-2)), y un comodín (IBM, que tiene mono, sans, sans condensed y serif).
+a) tipográficas: geométrica heavy (como [Kappa](https://www.wtypefoundry.com/kappa), a secas), *egipciana* (como [Kappa vol.2](https://www.wtypefoundry.com/kappa-vol-2)), y un comodín (IBM, que tiene mono, sans, sans condensed y serif).
 
 b) cromáticas: usos de mono-tono de transición (morado, haciendo guiño a enedi2017) y uso de duotono de cian y magenta de risografía.
 
