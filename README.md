@@ -22,7 +22,7 @@ Las propuestas:
 
 #### Para el feedback…
 
-- Si hay problemas con la estructura, necesito contrapropuestas a mano, idealmente dibujadas en papel cuadriculado usando 12 cuadradosd e ancho (porque sobre esa base opera Bootstrap, da lo mismo la cantidad de cuadrados de alto); también necesitaría que cada contrapropuesta se haga cargo de las distintas opciones de pantalla, o sea: cada contrapropuesta debería ser triple: (1) celular vertical, (2 )celular horizontal = tablet vertical, (3) tablet horizontal.
+- Si hay problemas con la estructura, necesito contrapropuestas a mano, idealmente dibujadas en papel cuadriculado usando 12 cuadrados de ancho (porque sobre esa base opera el CSS que estoy usando; da lo mismo la cantidad de cuadrados de alto); también necesitaría que cada contrapropuesta se haga cargo de las distintas opciones de pantalla, o sea: cada contrapropuesta debería ser triple: (1) celular vertical, (2 )celular horizontal = tablet vertical, (3) tablet horizontal.
 
 - lo demás se puede resolver con un "me gusta esto de una propuesta y aquello de otra" o "le sacaría esto, y le pondría esto otro".
 
