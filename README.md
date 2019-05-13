@@ -12,9 +12,9 @@ b) cromático: usos de monotono de transición (morado, haciendo guiño a enedi2
 Las siguientes propuestas exploran:
 
 
-**Propuesta-1.** [Uso de tipo *egipciana* en títulos - imagen mayor en un tono de transición - imágenes menores en gradiente de cian-magenta](https://facoasecas.github.io/enedi/propuesta-1/)
+**Propuesta-1.** [Uso de tipo *geométrica heavy* en títulos - imagen mayor en duotono cian/magenta - imágenes menores en gradiente cian-magenta débil](https://facoasecas.github.io/enedi/propuesta-2/)
 
-**Propuesta-2.** [Uso de tipo *geométrica heavy* en títulos - imagen mayor en duotono cian/magenta - imágenes menores en gradiente cian-magenta](https://facoasecas.github.io/enedi/propuesta-2/)
+**Propuesta-2.** [Uso de tipo *egipciana* en títulos - imagen mayor en un tono de transición - imágenes menores en gradiente de cian-magenta fuerte](https://facoasecas.github.io/enedi/propuesta-1/)
 
 **Propuesta-3.** [Uso de tipo IBM mono en títulos - imagen mayor a color, sin efectos - imágenes menores en duotono cian/magenta](https://facoasecas.github.io/enedi/propuesta-3/)
 
