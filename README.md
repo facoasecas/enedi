@@ -4,7 +4,7 @@
 
 **En estas propuestas nos concentramos en resolver, desde la programación, la posibilidad de una estructura cuadricular *responsive***. Si revisan las propuestas cambiando el tamaño de la ventana del navegador, o usando distintos dispositivos, el diseño cambia.
 
-Sobre la misma estructura, hay 4 variantes de tipográficas y cromáticas:
+Sobre la misma estructura, hay 4 variantes tipográficas y cromáticas:
 
 a) tipográficas: geométrica heavy (como [Kappa](https://www.wtypefoundry.com/kappa), a secas), *egipiana* (como [Kappa vol.2](https://www.wtypefoundry.com/kappa-vol-2)), y un comodín (IBM, que tiene mono, sans, sans condensed y serif).
 
