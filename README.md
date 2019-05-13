@@ -19,3 +19,12 @@ Las propuestas:
 **Propuesta-3.** [Uso de tipo IBM mono en títulos - imagen mayor a color, sin efectos - imágenes menores en duotono cian/magenta](https://facoasecas.github.io/enedi/propuesta-3/)
 
 **Propuesta-4.** [Uso de tipo *geométrica heavy* en títulos - imagen mayor en un tono de transición - imágenes menores en duotono cian/magenta](https://facoasecas.github.io/enedi/propuesta-4/)
+
+#### Para el feedback
+
+- Si hay problemas con la estructura, necesito contrapropuestas a mano, idealmente dibujadas en papel cuadriculado. Favor usen 12 cuadrados como ancho máximo (sobre esa base opera Bootstrap). también necesitaría que se hagan cargo de las distintas opciones de pantalla (celular vertical, celular horizontal = tablet vertical, table horizontal y más grande). 
+
+- lo demás se puede resolver con un "me gusta esto de una propuesta y aquello de otra".
+
+Quedo atento a comentarios! - hola@faco.cl
+
